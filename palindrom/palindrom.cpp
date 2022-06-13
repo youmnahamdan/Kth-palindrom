@@ -3,7 +3,7 @@
 #include <iostream>
 
 using namespace std;
-
+// to check if a number is palindrom
 bool isPal(int num) {
     int temp=num, rev=0, rem;
     while (temp) {
@@ -13,7 +13,7 @@ bool isPal(int num) {
     }
     return (rev == num) ? true : false;
 }
-
+// returns Kth palindrom number 
 int KthPal(int index) {
     int num=1;
     while (index) {
